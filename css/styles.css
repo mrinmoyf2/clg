@@ -1,0 +1,167 @@
+/* Reset some default browser styles */
+body {
+    margin: 0;
+    padding: 0;
+
+    background-image: url( https://img.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    overflow-x: hidden;
+
+}
+
+@font-face {
+    font-family: "Calibri";
+    src: url(./assets/fonts/calibri.ttf);
+}
+
+/* Navigation Bar: Logo and Image */
+li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 10px; /* Add some space between list items */
+  }
+  
+  a {
+    text-decoration: none; /* Remove underline from links */
+    color: gray; /* Text color for the links */
+    font-family: "Calibri", sans-serif;
+    font-size: 25px;
+    margin: 0 15px 0 15px;
+    position: relative;
+    transition: all 1s;
+  
+  }
+  
+  .login-btn-holder {
+    position: relative;
+    left: 30%;
+  
+  }
+  
+  /* Navigation Bar: Logo and Image */
+  #logo {
+  margin: 10px 34px;
+  
+  }
+  
+  #logo img {
+  height: 37px;
+  margin: -11px -41px;
+  border-radius: 100px;
+  margin-right: 10px;
+  }
+  
+  
+  a:hover {
+    color:rgb(0, 0, 0)
+  }
+  
+  .login-link {
+    color: rgb(0, 0, 0);
+  
+  }
+  
+  .btn {
+    background-color: #e1ecf4;
+    border-radius: 3px;
+    border: 1px solid #7aa7c7;
+    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #565454;
+    cursor: pointer;
+    display: inline-block;
+    /* font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif; */
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+    
+  }
+  
+  .btn:hover,
+  .btn:focus {
+    background-color: #b3d3ea;
+    color: #2c5777;
+    transition: 1s;
+  }
+  
+  .btn:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+  }
+  
+  
+  .hnav-links{
+    list-style-type: none; /* Remove bullet points from the list */
+    margin-left: 400px;
+    padding: 0;
+    position: relative;
+    /* text-align: center; */
+    top: 25px;
+    /* left: 10%; */
+  }
+  
+
+/* Button styling */ 
+
+/* CSS */
+.btn {
+    background-color: #e1ecf4;
+    border-radius: 3px;
+    border: 1px solid #7aa7c7;
+    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #2d7eb8;
+    cursor: pointer;
+    display: inline-block;
+    /* font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif; */
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+    
+  }
+  
+  .btn:hover,
+  .btn:focus {
+    background-color: #b3d3ea;
+    color: #2c5777;
+    transition: 1s;
+  }
+  
+  .btn:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+  }
+  
+  
+.body-header1 {
+
+    font-family: "Calibri";
+    font-size: 50px;
+    position: relative;
+
+    top: 60px;
+    text-align: center;
+
+    
+}

@@ -1,0 +1,183 @@
+
+/* Reset some default browser styles */
+body {
+    margin: 0;
+    padding: 0;
+
+    /* background-color: black; */
+    background-image: url( https://img.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    overflow-x: hidden;
+
+}
+
+@font-face {
+    font-family: "Calibri";
+    src: url(./assets/fonts/calibri.ttf);
+}
+
+/* Header Navbar Part Start */
+
+
+li {
+  display: inline; /* Display list items horizontally */
+  margin-right: 10px; /* Add some space between list items */
+}
+
+a {
+  text-decoration: none; /* Remove underline from links */
+  color: gray; /* Text color for the links */
+  font-family: "Calibri", sans-serif;
+  font-size: 25px;
+  margin: 0 15px 0 15px;
+  position: relative;
+  transition: all 1s;
+
+}
+
+.login-btn-holder {
+  position: relative;
+  left: 30%;
+
+}
+
+/* Navigation Bar: Logo and Image */
+#logo {
+margin: 10px 34px;
+
+}
+
+#logo img {
+height: 37px;
+margin: -11px -41px;
+border-radius: 100px;
+margin-right: 10px;
+}
+
+
+a:hover {
+  color:rgb(0, 0, 0)
+}
+
+.login-link {
+  color: rgb(0, 0, 0);
+
+}
+
+.btn {
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #565454;
+  cursor: pointer;
+  display: inline-block;
+  /* font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif; */
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+  
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+  transition: 1s;
+}
+
+.btn:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+
+.hnav-links{
+  list-style-type: none; /* Remove bullet points from the list */
+  margin-left: 400px;
+  padding: 0;
+  position: relative;
+  /* text-align: center; */
+  top: 25px;
+  /* left: 10%; */
+}
+
+/* Header Navbar Part End */
+
+/* Paragraph styling Start */
+.para_1 , .courses_list{
+    width:70%;
+    margin: 200px auto;
+}
+.sub_para {
+    font-size: 25px;
+    padding: 0 200px 0 0;
+    letter-spacing: 3px;
+}
+
+/* Courses List */
+.card {
+    width: 350px;
+    background: white;
+    padding: .4em;
+    border-radius: 6px;
+    float: left;
+  }
+  
+  .card-image {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 250px;
+    border-radius: 6px 6px 0 0;
+  }
+  
+  .card-image:hover {
+    transform: scale(0.98);
+  }
+  
+  .category {
+    text-transform: uppercase;
+    font-size: 1.4em;
+    font-weight: 600;
+    color: rgb(63, 121, 230);
+    padding: 10px 7px 0;
+  }
+  
+  .category:hover {
+    cursor: pointer;
+  }
+  
+  .heading {
+    font-weight: 600;
+    color: rgb(88, 87, 87);
+    padding: 7px;
+  }
+  
+  .heading:hover {
+    cursor: pointer;
+  }
+  
+  .author {
+    color: gray;
+    font-weight: 600;
+    font-size: 15px;
+    padding-top: 20px;
+  }
+ 
+  
+  .name:hover {
+    cursor: pointer;
+  }

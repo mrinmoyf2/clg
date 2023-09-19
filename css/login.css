@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2? family=poppins:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    
+    background-image: url( https://img.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper{
+    width: 330px;
+    padding: 2rem 1rem;
+    position: absolute;
+    top: 25%;
+    left: 42%;
+    background: transparent;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px;
+}
+h1{
+    font-size: 20px;
+    color: rgb(30, 29, 29);
+    margin-bottom: 1.2rem;
+}
+form input{
+     width: 92%;
+     outline: none;
+     border: 1px solid #151414;
+     padding: 12px 20px;
+     margin-bottom: 10px;
+     border-radius: 20px;
+     background: transparent;
+}
+button {
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    width: 90%;
+    color: rgb(90, 77, 102);
+    outline: none;
+}
+
+.enter-btn {
+  border-color:#5a93e9;
+  border-radius: 20px;
+  color: #5a93e9;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 150ms ease-in-out;
+  cursor: pointer;
+  font-size: 18px;
+  
+  &:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: #5a93e9;
+    z-index: -1;
+    transition: width 150ms ease-in-out;
+  }
+  
+  &:hover {
+    color: #fff;
+    &:after {
+      width: 110%;
+    }
+  }
+}
+
+
+
+
+.terms{
+    margin-top: 20px;
+}
+.terms input{
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.terms label{
+    font-size: 0.7rem;
+}
+.terms a{ 
+    color: rgb(41, 93, 74);
+    text-decoration: none;
+}
+.member{
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: #312d2d;
+}
+.member a{
+    color: rgb(40, 47, 43);
+    text-decoration: none;
+}
+.recover{
+    text-align: right;
+    font-size: 0.7rem;
+    margin: 0.3rem 1.4rem 0 0;
+}
+.recover a{
+    text-decoration: none;
+    color: #2a312a;
+}
